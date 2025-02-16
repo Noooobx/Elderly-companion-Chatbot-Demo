@@ -1,0 +1,48 @@
+# Virtual environment (Python)
+venv/
+.env
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# FastAPI & Uvicorn logs
+logs/
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Python dependencies (optional if using a requirements file)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables and API keys
+.env
+*.env
+.env.*
+
+# Cache and build artifacts
+.cache/
+.mypy_cache/
+.pytest_cache/
+build/
+dist/
+
+# Jupyter Notebooks checkpoints (if used)
+.ipynb_checkpoints/
+
+# Node.js dependencies (if using React frontend)
+node_modules/
+
+# Dependencies lock files (keep only one if needed)
+poetry.lock
+Pipfile.lock
